@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">  
+  <servlet>
+    <servlet-name>Vendor</servlet-name>
+    <servlet-class>com.asset.controller.VendorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Vendor</servlet-name>
+    <url-pattern>/vendor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Software</servlet-name>
+    <servlet-class>com.asset.controller.SoftwareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Software</servlet-name>
+    <url-pattern>/software</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Employee</servlet-name>
+    <servlet-class>com.asset.controller.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Employee</servlet-name>
+    <url-pattern>/employee</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Device</servlet-name>
+    <servlet-class>com.asset.controller.DeviceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Device</servlet-name>
+    <url-pattern>/device</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>License</servlet-name>
+  	<servlet-class>com.asset.controller.LicenseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>License</servlet-name>
+  	<url-pattern>/license</url-pattern>
+  </servlet-mapping>
+</web-app>
